@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Елена Пересветова](https://up.htmlacademy.ru/htmlcss/27/user/1346059).
-* Наставник: [Арсений Березин](https://up.htmlacademy.ru/htmlcss/27/user/263538).
+* Наставник: [Арсений Березин](https://up.htmlacademy.ru/htmlcss/27/user/263537).
 
 ---
 
