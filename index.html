@@ -82,30 +82,57 @@
         <div>
           <h3>Заинтересовались?</h3>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <button>Поиск гостиницы в седоне</button>
+          <button type="button">Поиск гостиницы в седоне</button>
           <article>
-            <!--Здесь будет форма-->
+            <div>
+              <form action="https://echo.htmlacademy.ru" method="post">
+            </div>
+            <div>
+              <label for="check-in">Дата заезда:</label>
+              <input type="text" id="check-in" name="date-arrival" value="24 апреля 2017">
+              <span class="visually-hidden">Календарь</span>
+            </div>
+            <div>
+              <label for="check-off">Дата выезда:</label>
+              <input type="text" id="check-off" name="date-departure" value="4 июля 2017"> 
+              <span class="visually-hidden">Календарь</span>    
+            </div>
+            <div>
+              <label for="adults">Взрослые:</label>
+              <input type="number" id="adults" name="adult" value="2"  min="1" max="100" step="1" placeholder="Взрослые">
+            </div>
+            <div>
+              <label for="children">Дети:</label>
+              <input type="text" id="children" name="child" value="0"  min="1" max="100" step="1" placeholder="Дети">   
+            </div>
+            <div>
+          <button type="submit">Найти</button>
+            </div>
+              </form>
           </article>
+          <h2 class="visually-hidden">Карта штата Аризона</h2>
+          <img src="#" width="1200" height="593" alt="Карта штата Аризона">
         </div>
       </section>
     </main>
     <footer>
+      <h2 class="visually-hidden">Как с нами связаться</h2>
         <div>
-          <p>#Visitsedona <br> 
-             Тел:+7(495)666-02-66</p>
+          <a href="#">#Visitsedona</a>
+          <span>Тел: <a href="tel:+74956660266">+7 (495) 666-02-66</a></span>
         </div>
         <div>
+          <h2 class="visually-hidden">Социальные сети</h2>
           <ul>
-            <li><a href="">Твиттер</a></li>
-            <li><a href="">Фейсбук</a></li>
-            <li><a href="">Ютуб</a></li>
+            <li><a href="#" title="Наша страница в Твиттере">Твиттер</a></li>
+            <li><a href="#"title="Наша страница в Фейсбуке">Фейсбук</a></li>
+            <li><a href="#"title="Наша страница в Ютубе">Ютуб</a></li>
           </ul>
         </div>
         <div>
-          <p>Website by html academy
-            <a href="HTML academy"></a>
-          </p>
+          <span>Website by</span>
+            <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
         </div>
-</footer>
-  </body>
+      </footer>
+    </body>
 </html>
