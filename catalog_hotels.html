@@ -21,46 +21,55 @@
     </header>
 
     <main>
-      <div>
-        <!--Здесь будет форма-->
-     <h1>Критерии для поиска желаемой гостиницы</h1>
-     <fieldset>
-        <!--Здесь будет форма-->
-        <p>Инфраструктура:</p>
-        <ul>
-          <li><span></span>Бассейн</li>
-          <li><span></span>Парковка</li>
-          <li><span></span>Wi-Fi</li>
-        </ul>
-     </fieldset>
-    </div>
-    <div>
-     <fieldset>
-         <!--Здесь будет форма-->
-         <p>Тип жилья:</p>
-         <ul>
-           <li><span></span>Гостиница</li>
-           <li><span></span>Мотель</li>
-           <li><span></span>Апартаменты</li>
-        </ul>
-     </fieldset>
-    </div>
-    <div>
-     <!--Здесь будет форма-->
-    </div>
-    <div>
-        <p>Найдено</p>
-        <span>3</span>
-    </div>
-    <div>
-        <p>Сортировка:</p>
-        <ul>
-            <li><button>По цене</button></li>
-            <li><button>По типу</button></li>
-            <li><button>По рейтингу</button></li>
-        </ul>
-    </div>
-    
+      <section>
+        <h2 class="visually-hidden">Гостиницы</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" id="filter-pool" name="pool" checked>
+                <label for="filter-pool">Бассейн</label>
+              </li>
+              <li>               
+                <input type="checkbox" id="filter-parking" name="parking">
+                <label for="filter-parking">Парковка</label>
+              </li>
+              <li>
+                <input type="checkbox" id="filter-wifi" name="wifi">
+                <label for="filter-wifi">WiFi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li>               
+                <input type="checkbox" id="filter-hotel" name="hotel" checked>
+                <label for="filter-hotel">Гостиница</label>
+              </li>
+              <li>
+                <input type="checkbox" id="filter-motel" name="motel" checked>
+                <label for="filter-motel">Мотель</label>
+              </li>
+              <li>
+                <input type="checkbox" id="filter-apartments" name="apartments" checked>
+                <label for="filter-apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <div>
+            <h2>Стоимость в сутки (Р):</h2>
+            <span>От 0</span>
+            <input type="range" min="0" max="3000" step="100">
+            <span>До 3000</span>
+          </div>
+          <div>
+            <button type="submit">Показать</button>
+          </div>
+        </form>
+      </section>
+   
           <h2 class="visually-hidden">Список гостиниц</h2>
           <article>
             <ul>
