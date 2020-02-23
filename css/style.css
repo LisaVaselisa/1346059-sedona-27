@@ -68,8 +68,35 @@ a {
     text-align: center;
 }
 
+.advantage-list {
+    text-align: center;
+    color: #333333;
+}
 
+.blue-bg {
+    background-color: #81b3d2;
 
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.advantage-info {
+    color: #ffffff;  
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;  
+}
+
+.grey-bg {
+    background-color: #eeeeee;
+}
 
 .booking {
     text-align: center;
@@ -198,6 +225,78 @@ h4 {
 
   
 /*внутренняя страница*/
+
+.filter {
+    color: #ffffff;
+
+    background-image: url(../img/filter-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5496bd;
+}
+
+.infrastructure,
+.habitation, 
+.cost {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.cost-filter {
+    text-align: right;
+}
+
+.btn-filter {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background-color: transparent;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.sorting-filter {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.sorting p:nth-child(1){
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.sorting-list a{
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.sorting-list a:hover {
+    color: #81b3d2;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #81b3d2;
+}
+
+.sorting-list a:focus {
+    color: #81b3d2;
+    text-decoration: none;
+}
+
+.sorting-list a:active {
+    color: #000000 !important;
+    text-decoration: none;
+}
 
 .hotel-name h3 {
     line-height: 26px;
