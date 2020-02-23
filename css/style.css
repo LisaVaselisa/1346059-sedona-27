@@ -1,0 +1,259 @@
+body {
+    font-family: "PT Sans", Arial, sans;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #f2f2f2;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.visually-hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.nav-item a:hover,
+.nav-item a:focus,
+.social-item a:focus,
+.social-item a:focus {
+    color: #81b3d2;
+}
+
+.nav-list,
+.benefit-list,
+.advantages-list,
+.social-list,
+.infrastructure-list,
+.habitation-list,
+.sorting-list, 
+.sorting-arrow, 
+.hotel-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+.intro-bg {
+    text-align: center;
+    background-image: 
+    url("../img/background.jpg");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 773px;
+    background-color: #669ec0;
+}  
+
+.intro-wrap {
+    background-color: #ffffff; 
+  }
+
+.intro-title{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro-text {
+    color: #333333;
+    text-align: center;
+}
+
+
+
+
+.booking {
+    text-align: center;
+    color: #333333; 
+    background-color: #f2f2f2;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 36px;
+}
+
+.btn-booking {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+  
+    background-color: #766357;
+}
+
+.btn-booking:hover,
+.btn-booking:focus {
+    background-color: #604e43;
+}
+
+.booking-form {
+    font-weight: bold;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.booking-form input[type="text"] {
+    background-color: #f2f2f2; 
+}
+
+.booking-form input[type="number"] {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.booking-form input[type="text"]:hover,
+.booking-form input[type="number"]:hover {
+    background-color: #ebebeb;  
+}
+
+.booking-form input[type="text"]:focus,
+.booking-form input[type="number"]:focus {
+    background-color: #ffffff; 
+}
+
+.plus,
+.minus {
+    font-weight: 700;
+    color: #a9a9a9;
+    background-color: #f2f2f2;
+
+}
+
+.plus:hover,
+.plus:focus,
+.minus:hover,
+.minus:focus {
+    color: #000000;
+}
+
+.plus:active,
+.minus:active {
+    color: #81b3d2;
+}
+
+.btn-search {
+    font-size: 21px;
+    font-weight: 700;
+    font-weight: 26px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+    background-color: #669ec0;
+}
+
+.btn-search:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
+.footer-wrap { 
+    color: #000000;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.contact {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+  
+.social-list {
+    list-style: none;
+}
+  
+.social-item {
+    background-color: #81b3d2;
+}
+
+.social-item:focus,
+.social-item:hover {
+    background-color: #669ec0;
+}
+
+.social-item:active {
+    background-color: #5496bd;
+}
+
+
+
+  
+/*внутренняя страница*/
+
+.hotel-name h3 {
+    line-height: 26px;
+    text-align: left;
+}
+
+.columns {
+    line-height: 21px;
+    text-align: left;
+    color: #333333;
+}
+
+.btn-detail {
+    background-color: #81b3d2; 
+}
+
+.btn-detail,
+.btn-reserve {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn-detail:hover {
+    color: #ffffff !important;
+    background-color: #669ec0;
+}
+
+.btn-detail:active,
+.btn-detail:focus {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
+.btn-reserve {
+    background-color: #766357;
+}
+
+.btn-reserve:hover {
+    color: #ffffff !important;
+    background-color: #604e43;
+}
+
+.btn-reserve:focus,
+.btn-reserve:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+
+}
+
+.rating {
+    color: #666666;
+    background-color: #f2f2f2; 
+}
+
+
+
+
+
+
