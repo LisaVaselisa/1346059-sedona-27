@@ -9,19 +9,18 @@
   </head>
 
   <body>
-    <header class="header-wrapper">
-      <nav class="nav">
-        <a href="index.html" class="logo" aria-label="Возврат на главню станицу">
-          <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип-Седона">
-        </a>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="info.html">Информация</a></li>
-          <li class="nav-item"><a href="photo-video.html">Фото и видео</a></li>
-          <li class="nav-item"><a href="map.html">Карта штата</a></li>
-          <li class="nav-item"><a href="catalog_hotels.html">Гостиницы</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="header-wrap">
+        <a class="nav-logo"><img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип-Седона"></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="photo-video.html">Фото и видео</a></li>
+            <li><a href="map.html">Карта штата</a></li>
+            <li><a href="catalog_hotels.html">Гостиницы</a></li>
+          </ul>
+        </nav>
+      </header>
 
     <main>
       <h1 class="visually-hidden">Поиск гостиницы</h1>
@@ -29,7 +28,7 @@
       <section class="filter">
         <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
           <div>
-            <fieldset class="infrastructure-filter">
+            <fieldset>
               <legend class="infrastructure">Инфраструктура:</legend>
               <ul class="infrastructure-list">
                 <li>
@@ -68,22 +67,26 @@
             </fieldset>
           </div>
 
-          <fieldset class="cost-filter">
-            <legent class="cost">Стоимость в сутки (Р):</legent>
-            <div>
-              <label class="cost-min">от <input type="number" name="cost-min" value="0"></label>
-              <label class="cost-max">до <input type="number" name="cost-max" value="3000"></label>
-            </div>
-            <input type="range" id="cost" min="0" max="3000" step="100" name="cost" value="2600">
-          </fieldset>
-          <button class="btn-filter" type="submit">Показать</button>
+          <div class="cost-wrap">
+            <fieldset class="cost-filter">
+              <legent class="cost">Стоимость в сутки (Р):</legent>
+              <div>
+                <label class="cost-min">от <input type="number" name="cost-min" value="0"></label>
+                <label class="cost-max">до <input type="number" name="cost-max" value="3000"></label>
+              </div>
+              <input type="range" id="cost" min="0" max="3000" step="100" name="cost" value="2600">
+            </fieldset>
+            <button class="btn-filter" type="submit">Показать</button>
+          </div>
+
+          
         </form>
       </section>
 
       <section class="sorting-filter">
-        <div class="sorting">
-          <p>Найдено: <span>3</span></p>
-          <p>Сортировка</p>
+        <div class="sorting-wrap">
+          <span>Найдено: 3</span>
+          <span>Сортировка</span>
 
           <ul class="sorting-list">
             <li class="sorting-cost"><a href="#" aria-label="Фильтр по цене">по цене</a></li>
@@ -100,7 +103,7 @@
           </ul>
         </div>
         
-        <section class="result">
+        <div class="result-wrap">
           <h3 class="visually-hidden">Результат поиска гостиниц</h3>
           
           <ul class="hotel-list">
@@ -191,6 +194,7 @@
               </div>
             </li>
           </ul>
+          </div>
         </section>
       </main>
 
@@ -205,9 +209,9 @@
           <div class="social">
             <h2 class="visually-hidden">Социальные сети</h2>
             <ul class="social-list">
-              <li class="social-item"><a class="twitter" href="#" aria-label="Страница в Твиттере"></a>T</li>
-              <li class="social-item"><a class="facebook" href="#" aria-label="Страница в Фейсбуке"></a>F</li>
-              <li class="social-item"><a class="youtube" href="#" aria-label="Страница в Ютубе"></a>Y</li>
+              <li><a class="twitter" href="#" aria-label="Страница в Твиттере"></a>T</li>
+              <li><a class="facebook" href="#" aria-label="Страница в Фейсбуке"></a>F</li>
+              <li><a class="youtube" href="#" aria-label="Страница в Ютубе"></a>Y</li>
             </ul>
           </div>
   
@@ -220,7 +224,7 @@
   
         </div>
       </footer>
-
+</div>
     </body>
 </html>
           
