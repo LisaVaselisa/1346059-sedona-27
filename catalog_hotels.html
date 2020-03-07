@@ -19,7 +19,7 @@
             <li><a href="info.html">Информация</a></li>
             <li><a href="photo-video.html">Фото и видео</a></li>
             <li><a href="map.html">Карта штата</a></li>
-            <li><a href="catalog_hotels.html">Гостиницы</a></li>
+            <li><a class="nav-activ" href="catalog_hotels.html">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -96,33 +96,28 @@
             </li>
           </ul>
         </section>
-        <section>
-          <div class="result-wrap">
+        <section class="result-wrap">
             <h3 class="visually-hidden">Результат поиска гостиниц</h3>
             <ul class="hotel-list">
               <li class="hotel-item">
-                <img src="img/amara-resort-spa.jpg" width="135" height="90" alt="Отель Amara resort & spa">
-                
-                <div class="hotel-info">
-                  <div class="hotel-name">
-                    <h3>Amara resort & spa</h3>
+                <div class="parameters-hotel">
+                  <img src="img/amara-resort-spa.jpg" width="135" height="90" alt="Отель Amara resort & spa">
+                  <div class="hotel-info">
+                    <a href="#">
+                      <h3>Amara resort & spa</h3>
+                    </a>
+                    <span>Гостиница</span>
+                    <span>от 4000 р.</span>
+                    <a class="btn-detail" href="#" aria-label="подробнее">Подробнее</a>
+                    <a class="btn-reserve" href="#" aria-label="забронировать">Забронировать</a>
                   </div>
-
-                  <div class="columns">
-                    <div class="column-detail">
-                      <p>Гостиница</p>
-                      <a class="btn-detail" href="#" aria-label="подробнее">Подробнее</a>
-                    </div>
-                    <div class="column-price">
-                      <p>от 4000 р.</p>
-                      <a class="btn-reserve" href="#" aria-label="забронировать">Забронировать</a>
-                    </div>
+                  <div class="column-raiting">
+                    <img class="star" src="img/star.svg" width="18" height="17" alt="Изображение звезд">
+                    <img class="star" src="img/star.svg" width="18" height="17" alt="Изображение звезд">
+                    <img class="star" src="img/star.svg" width="18" height="17" alt="Изображение звезд">
+                    <img class="star" src="img/star.svg" width="18" height="17" alt="Изображение звезд">
+                    <p> Рейтинг: 8,5</p>
                   </div>
-                </div>
-
-                <div class="rating">
-                  <div class="stars"></div>
-                  <p>Рейтинг 8,5</p>
                 </div>
               </li>
             
@@ -144,13 +139,15 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="rating">
-                  <div class="stars"></div>
-                  <p>Рейтинг 8,5</p>
+                  <p>Рейтинг 8,9</p>
                 </div>
+                  <span class="stars"></span>
+                  <span class="stars"></span>
+                  <span class="stars"></span>
               </li>
 
+           
               <li class="hotel-item">
                 <img src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt="Отель Villas at poco diablo">
                 <div class="hotel-info">
@@ -169,14 +166,18 @@
                     </div>
                   </div>
                 </div>
-          
-                <div class="rating">
-                  <div class="stars"></div>
-                  <p>Рейтинг 9,5</p>
-                </div>
+                <div>
+                  <div class="rating">
+                    <p>Рейтинг 8,9</p>
+                  </div>
+                    <span class="stars"></span>
+                    <span class="stars"></span>
+                  </div>
               </li>
+          
+             
             </ul>
-          </div>
+          
         </section>
       </main>
 
@@ -190,9 +191,9 @@
         <div class="social">
           <h3 class="visually-hidden">Социальные сети</h3>
           <ul class="social-list">
-            <li><a class="btn-social" href="#" aria-label="Страница в Твиттере"></a></li>
-            <li><a class="btn-social" href="#" aria-label="Страница в Фейсбуке"></a></li>
-            <li><a class="btn-social" href="#" aria-label="Страница в Ютубе"></a></li>
+            <li><a class="twitter" href="#" aria-label="Страница в Твиттере"></a></li>
+            <li><a class="facebook" href="#" aria-label="Страница в Фейсбуке"></a></li>
+            <li><a class="youtube" href="#" aria-label="Страница в Ютубе"></a></li>
           </ul>
         </div>
   
