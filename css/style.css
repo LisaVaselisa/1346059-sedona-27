@@ -51,7 +51,7 @@ img {
     list-style-type: none;
 }
 
-/*Оживление кнопок первая страница*/
+/*Декоративные элементы - навигация*/
 
 .nav-list a:hover,
 .nav-list a:focus {
@@ -430,7 +430,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 
-/*Оживление кнопок в форме 1*/
+/*Декоротивные элелементы - форма 1*/
 
 .btn-booking:hover,
 .btn-booking:focus {
@@ -573,7 +573,7 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-left: 8px;
 }
 
-/*Оживление кнопок в подвале*/
+/*Декоративные элементы - подвал*/
 
 .contact:hover span,
 .contact:focus span,
@@ -661,7 +661,6 @@ input[type="number"]::-webkit-inner-spin-button {
 
     background-color: #ffffff;
     height: 540px;
-
 }
 
 .sorting-wrap {
@@ -694,27 +693,12 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .sorting-item a {
     color: rgba(0, 0, 0, 0.3);
-    text-decoration: underline;
-    text-decoration-style: dashed;
+    border-bottom: 1px dotted #81b3d2;
 }
 
-.sorting-item a:hover {
-    opacity: 1;
+.sorting-activ a {
     color: #81b3d2;
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-color: #81b3d2;
-}
-
-.sorting-item a:focus {
-    opacity: 1;
-    color: #81b3d2;
-    text-decoration: none;
-}
-
-.sorting-item a:active {
-    color: #000000 !important;
-    text-decoration: none;
+    border-bottom: none;
 }
 
 .sorting-arrow {
@@ -725,19 +709,13 @@ input[type="number"]::-webkit-inner-spin-button {
 .arrow-item {
     margin-right: 12px;
 }
-
-.sorting-arrow path:active,
-.sorting-arrow path:focus {
-    fill: #81b3d2;
-}
-
-.sorting-arrow path:hover {
-    fill: #000000;
+.arrow-item path {
+    fill:#cacaca;
 }
 
 .result-wrap {
     min-height: 453px;
-    background-color: white;
+    background-color: white; 
 }
 
 .hotel-list{
@@ -748,7 +726,12 @@ input[type="number"]::-webkit-inner-spin-button {
 .hotel-item {
     box-sizing: border-box;
     min-height: 150px;
+    padding-top: 30px;
     border-top: 1px solid #f2f2f2;
+}
+
+.hotel-item:last-child {
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .parameters-hotel {
@@ -756,11 +739,6 @@ input[type="number"]::-webkit-inner-spin-button {
     align-items: center;
     width: 1060px;
     margin: auto;
-    margin-top: 29px;
-}
-
-.hotel-item:last-child {
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .hotel-info {
@@ -778,7 +756,7 @@ h3 {
     margin: 0;
 }
 
-.hotel-info span {
+.hotel-info p {
     color: #333333;
     display: inline-block;
     width: 110px;
@@ -802,18 +780,18 @@ h3 {
     display: inline-block;
 }
 
-.btn.reserve {
+.btn-reserve {
     width: 142px;
-    line-height: 27px;
     background-color: #766357; 
     display: inline-block;
 }
 
-.column-raiting {
+.rating {
     text-align: center;
 }
 
-.column-raiting p {
+.rating p {
+    color: #666666;
     display: block;
     width: 110px;
     margin-top: 40px;
@@ -823,42 +801,62 @@ h3 {
     background-color: #f2f2f2;
 }
 
-.column-raiting img {
+.rating img {
     margin-left: 3px;
 }
 
+.footer-catalog {
+	position: static;
+}
 
+/*Декоративные элементы - вторая страница*/
 
+.sorting-item a:hover,
+.sorting-item a:focus {
+    color: #81b3d2;
+    border-bottom: 1px dotted #81b3d2;
+}
 
-.btn-detail:hover {
-    color: #ffffff !important;
+.sorting-item a:active {
+    color: #000000;
+    border-bottom: none;
+}
+
+.arrow-item path:hover,
+.arrow-item path:focus {
+    fill: #231F20;
+}
+
+.arrow-item path:active,
+.arrow-activ path {
+    fill: #81b3d2;
+}
+
+.hotel-info h3:hover,
+.hotel-info h3:focus {
+    color: #81b3d2;
+}
+
+.hotel-info h3:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-detail:hover,
+.btn-detail:focus {
     background-color: #669ec0;
 }
 
-.btn-detail:active,
-.btn-detail:focus {
+.btn-detail:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: #5496bd;
 }
 
-.btn-reserve {
-    background-color: #766357;
-}
-
-.btn-reserve:hover {
-    color: #ffffff !important;
+.btn-reserve:hover,
+.btn-reserve:focus {
     background-color: #604e43;
 }
 
-.btn-reserve:focus,
 .btn-reserve:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: #503e33;
-}
-
-
-
-
-.footer-catalog {
-	position: static;
 }
